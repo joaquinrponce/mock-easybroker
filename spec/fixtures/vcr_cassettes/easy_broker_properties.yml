@@ -1,0 +1,129 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stagingeb.com/v1/properties
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-authorization:
+      - REDACTED
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 04 Sep 2024 02:50:06 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      status:
+      - 200 OK
+      cache-control:
+      - no-store
+      vary:
+      - Accept
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+      feature-policy:
+      - camera 'self'; microphone 'self'; fullscreen 'self' https://www.youtube.com/;
+        geolocation 'self'; gyroscope 'none'; usb 'none'; payment 'none'; magnetometer
+        'none'; accelerometer 'none'
+      x-request-id:
+      - b1cac785-0a04-42f6-b7dd-8156d5cd3e3f
+      x-download-options:
+      - noopen
+      etag:
+      - W/"094ce2ab9d56455e28c6b2e98cbe2d87"
+      x-frame-options:
+      - SAMEORIGIN
+      x-runtime:
+      - '0.094993'
+      x-content-type-options:
+      - nosniff
+      set-cookie:
+      - rp=api.stagingeb.com; path=/; expires=Thu, 05 Sep 2024 02:50:06 GMT; SameSite=Lax,
+        source=api.stagingeb.com; path=/; expires=Tue, 04 Mar 2025 02:50:06 GMT; SameSite=Lax
+      x-powered-by:
+      - Phusion Passenger(R) 6.0.23
+      server:
+      - nginx/1.18.0 + Phusion Passenger(R) 6.0.23
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"limit":20,"page":1,"total":1105,"next_page":"https://api.stagingeb.com/v1/properties?page=2"},"content":[{"public_id":"EB-B0425","title":"Casa
+        bien bonita","title_image_full":"https://assets.stagingeb.com/property_images/20425/47919/EB-B0425.jpg?version=1555346000","title_image_thumb":"https://assets.stagingeb.com/property_images/20425/47919/EB-B0425.jpg?version=1555346000\u0026width=200","location":"San
+        Antonio El Grande, Aquiles Serdán, Chihuahua","operations":[{"type":"sale","amount":8000.0,"currency":"MXN","formatted_amount":"$8,000","commission":{"type":"percentage","value":"5.0"},"unit":"square_meter"}],"bedrooms":4,"bathrooms":4,"parking_spaces":3,"property_type":"Casa","lot_size":300.0,"construction_size":220.0,"updated_at":"2024-08-12T23:33:24-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":true},{"public_id":"EB-B1027","title":"Bodega
+        en Naucalpan","title_image_full":"https://assets.stagingeb.com/property_images/21027/29467/EB-B1027.jpg?version=1544817901","title_image_thumb":"https://assets.stagingeb.com/property_images/21027/29467/EB-B1027.jpg?version=1544817901\u0026width=200","location":"2a
+        Ampliación Presidentes, Álvaro Obregón, Ciudad de México","operations":[{"type":"sale","amount":12500000.0,"currency":"MXN","formatted_amount":"$12,500,000","commission":{"type":"percentage","value":"5.0"},"unit":"total"}],"bedrooms":null,"bathrooms":null,"parking_spaces":null,"property_type":"Bodega
+        comercial","lot_size":5394.0,"construction_size":1240.0,"updated_at":"2024-08-12T23:33:40-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":true},{"public_id":"EB-B4994","title":"Casa
+        en Renta en Residencial Privada Jardín, Juárez, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/24994/49091/EB-B4994.jpg?version=1555541680","title_image_thumb":"https://assets.stagingeb.com/property_images/24994/49091/EB-B4994.jpg?version=1555541680\u0026width=200","location":"Privadas
+        Jardines Residencial, Juárez, Nuevo León","operations":[{"type":"rental","amount":3500.0,"currency":"MXN","formatted_amount":"$3,500","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":2,"bathrooms":1,"parking_spaces":null,"property_type":"Casa","lot_size":90.0,"construction_size":65.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B4995","title":"Casa
+        en Renta en Col. Obrerista en Monterrey, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/24995/49092/EB-B4995.jpg?version=1555541681","title_image_thumb":"https://assets.stagingeb.com/property_images/24995/49092/EB-B4995.jpg?version=1555541681\u0026width=200","location":"Obrerista,
+        Monterrey, Nuevo León","operations":[{"type":"rental","amount":10000.0,"currency":"MXN","formatted_amount":"$10,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":6,"bathrooms":2,"parking_spaces":null,"property_type":"Casa","lot_size":180.0,"construction_size":250.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B4996","title":"Casa
+        en Venta en Nuevo Amanecer en Apodaca, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/24996/49093/EB-B4996.jpg?version=1555541683","title_image_thumb":"https://assets.stagingeb.com/property_images/24996/49093/EB-B4996.jpg?version=1555541683\u0026width=200","location":"Nuevo
+        Amanecer 1, Apodaca, Nuevo León","operations":[{"type":"sale","amount":650000.0,"currency":"MXN","formatted_amount":"$650,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":4,"bathrooms":2,"parking_spaces":null,"property_type":"Casa","lot_size":105.0,"construction_size":96.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B4997","title":"Casa
+        en Venta en Fracc. Los Candiles en Apodaca, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/24997/49094/EB-B4997.jpg?version=1555541684","title_image_thumb":"https://assets.stagingeb.com/property_images/24997/49094/EB-B4997.jpg?version=1555541684\u0026width=200","location":"Los
+        Candiles, Apodaca, Nuevo León","operations":[{"type":"sale","amount":580000.0,"currency":"MXN","formatted_amount":"$580,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":2,"bathrooms":1,"parking_spaces":null,"property_type":"Casa","lot_size":90.0,"construction_size":70.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B4998","title":"Casa
+        en Venta en Col. Lomas del Topo Chico en Monterrey, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/24998/49095/EB-B4998.jpg?version=1555541685","title_image_thumb":"https://assets.stagingeb.com/property_images/24998/49095/EB-B4998.jpg?version=1555541685\u0026width=200","location":"Lomas
+        de Topo Chico, Monterrey, Nuevo León","operations":[{"type":"sale","amount":800000.0,"currency":"MXN","formatted_amount":"$800,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":8,"bathrooms":4,"parking_spaces":null,"property_type":"Casa","lot_size":237.0,"construction_size":213.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B4999","title":"Casa
+        en Venta en Col. Loma Linda en Monterrey, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/24999/49096/EB-B4999.jpg?version=1555541686","title_image_thumb":"https://assets.stagingeb.com/property_images/24999/49096/EB-B4999.jpg?version=1555541686\u0026width=200","location":"Loma
+        Linda, Monterrey, Nuevo León","operations":[{"type":"sale","amount":1600000.0,"currency":"MXN","formatted_amount":"$1,600,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":6,"bathrooms":3,"parking_spaces":null,"property_type":"Casa","lot_size":199.0,"construction_size":203.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5000","title":"Casa
+        en Venta en Col. Blas Chumacero, San Nicolás de los Garza, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25000/49097/EB-B5000.jpg?version=1555541687","title_image_thumb":"https://assets.stagingeb.com/property_images/25000/49097/EB-B5000.jpg?version=1555541687\u0026width=200","location":"Blas
+        Chumacero CTM, San Nicolás de los Garza, Nuevo León","operations":[{"type":"sale","amount":500000.0,"currency":"MXN","formatted_amount":"$500,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":2,"bathrooms":1,"parking_spaces":null,"property_type":"Casa","lot_size":67.0,"construction_size":63.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5001","title":"Casa
+        en Venta en Santa María en García, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25001/49098/EB-B5001.jpg?version=1555541688","title_image_thumb":"https://assets.stagingeb.com/property_images/25001/49098/EB-B5001.jpg?version=1555541688\u0026width=200","location":"Santa
+        María, García, Nuevo León","operations":[{"type":"sale","amount":550000.0,"currency":"MXN","formatted_amount":"$550,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":2,"bathrooms":1,"parking_spaces":null,"property_type":"Casa","lot_size":98.0,"construction_size":75.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5002","title":"Quinta
+        en Venta con terreno para Sembrar en Cadereyta, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25002/49099/EB-B5002.jpg?version=1555541689","title_image_thumb":"https://assets.stagingeb.com/property_images/25002/49099/EB-B5002.jpg?version=1555541689\u0026width=200","location":"El
+        Rosario, Cadereyta Jiménez, Nuevo León","operations":[{"type":"sale","amount":4000000.0,"currency":"MXN","formatted_amount":"$4,000,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":3,"bathrooms":2,"parking_spaces":null,"property_type":"Rancho","lot_size":20066.0,"construction_size":277.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5003","title":"Casa
+        en Venta en Col. Obrerista en Monterrey, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25003/49100/EB-B5003.jpg?version=1555541691","title_image_thumb":"https://assets.stagingeb.com/property_images/25003/49100/EB-B5003.jpg?version=1555541691\u0026width=200","location":"Obrerista,
+        Monterrey, Nuevo León","operations":[{"type":"sale","amount":2500000.0,"currency":"MXN","formatted_amount":"$2,500,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":0,"bathrooms":2,"parking_spaces":null,"property_type":"Casa","lot_size":180.0,"construction_size":250.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5004","title":"Terreno
+        en Renta en el Centro de Ciénega de Flores, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25004/49101/EB-B5004.jpg?version=1555541691","title_image_thumb":"https://assets.stagingeb.com/property_images/25004/49101/EB-B5004.jpg?version=1555541691\u0026width=200","location":"Ciénega
+        de Flores Centro, Ciénega de Flores, Nuevo León","operations":[{"type":"rental","amount":45000.0,"currency":"MXN","formatted_amount":"$45,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":null,"bathrooms":null,"parking_spaces":null,"property_type":"Terreno","lot_size":2112.0,"construction_size":null,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5005","title":"Casa
+        en Venta en Paseo Andaluz en Juárez, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25005/49102/EB-B5005.jpg?version=1555541693","title_image_thumb":"https://assets.stagingeb.com/property_images/25005/49102/EB-B5005.jpg?version=1555541693\u0026width=200","location":"Paseo
+        Andaluz, Juárez, Nuevo León","operations":[{"type":"sale","amount":580000.0,"currency":"MXN","formatted_amount":"$580,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":3,"bathrooms":2,"parking_spaces":null,"property_type":"Casa","lot_size":90.0,"construction_size":90.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5006","title":"Casa
+        en Venta en Terranova Residencial en Juárez, NL","title_image_full":"https://assets.stagingeb.com/property_images/25006/49103/EB-B5006.jpg?version=1555541694","title_image_thumb":"https://assets.stagingeb.com/property_images/25006/49103/EB-B5006.jpg?version=1555541694\u0026width=200","location":"Residencial
+        Terranova, Juárez, Nuevo León","operations":[{"type":"sale","amount":320000.0,"currency":"MXN","formatted_amount":"$320,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":2,"bathrooms":1,"parking_spaces":null,"property_type":"Casa","lot_size":52.0,"construction_size":53.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5007","title":"Casa
+        en Venta en Hacienda Mitras en Monterrey, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25007/49104/EB-B5007.jpg?version=1555541695","title_image_thumb":"https://assets.stagingeb.com/property_images/25007/49104/EB-B5007.jpg?version=1555541695\u0026width=200","location":"Hacienda
+        Mitras, Monterrey, Nuevo León","operations":[{"type":"sale","amount":1700000.0,"currency":"MXN","formatted_amount":"$1,700,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":3,"bathrooms":2,"parking_spaces":null,"property_type":"Casa","lot_size":126.0,"construction_size":172.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5008","title":"Casa
+        en Venta en Monte Kristal en Juárez, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25008/49105/EB-B5008.jpg?version=1555541696","title_image_thumb":"https://assets.stagingeb.com/property_images/25008/49105/EB-B5008.jpg?version=1555541696\u0026width=200","location":"Monte
+        Kristal 4o Sector, Juárez, Nuevo León","operations":[{"type":"sale","amount":650000.0,"currency":"MXN","formatted_amount":"$650,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":2,"bathrooms":1,"parking_spaces":null,"property_type":"Casa","lot_size":160.0,"construction_size":110.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5009","title":"Casa
+        en Venta en Infonavit Fidel Velazquez en San Nicolás de los Garza","title_image_full":"https://assets.stagingeb.com/property_images/25009/49106/EB-B5009.jpg?version=1555541697","title_image_thumb":"https://assets.stagingeb.com/property_images/25009/49106/EB-B5009.jpg?version=1555541697\u0026width=200","location":"Fidel
+        Velázquez Sánchez Sector 1, San Nicolás de los Garza, Nuevo León","operations":[{"type":"sale","amount":550000.0,"currency":"MXN","formatted_amount":"$550,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":3,"bathrooms":1,"parking_spaces":null,"property_type":"Casa","lot_size":70.0,"construction_size":90.0,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5010","title":"Terreno
+        en Venta en Campestre Cerro Alto en García, N.L.","title_image_full":null,"title_image_thumb":null,"location":"Icamole,
+        García, Nuevo León","operations":[{"type":"sale","amount":500000.0,"currency":"MXN","formatted_amount":"$500,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":null,"bathrooms":null,"parking_spaces":null,"property_type":"Terreno","lot_size":3000.0,"construction_size":null,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false},{"public_id":"EB-B5011","title":"Terreno
+        en Venta en Col. Jardines de la Silla, Juárez, N.L.","title_image_full":"https://assets.stagingeb.com/property_images/25011/49107/EB-B5011.jpg?version=1555541698","title_image_thumb":"https://assets.stagingeb.com/property_images/25011/49107/EB-B5011.jpg?version=1555541698\u0026width=200","location":"Jardines
+        de La Silla, Juárez, Nuevo León","operations":[{"type":"sale","amount":260000.0,"currency":"MXN","formatted_amount":"$260,000","commission":{"type":"percentage"},"unit":"total"}],"bedrooms":null,"bathrooms":null,"parking_spaces":null,"property_type":"Terreno","lot_size":279.0,"construction_size":null,"updated_at":"2024-08-12T23:34:12-06:00","agent":"Alejandro
+        Blanco Zivec","show_prices":true,"share_commission":false}]}'
+  recorded_at: Wed, 04 Sep 2024 02:50:06 GMT
+recorded_with: VCR 6.3.1

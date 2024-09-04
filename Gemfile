@@ -9,11 +9,17 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem "vite_rails"
+gem "faraday"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
+  gem "pry-rails"
+  gem "factory_bot_rails"
+  gem "faker"
+  gem "rspec-rails"
+  gem "dotenv"
 end
 
 group :development do
@@ -23,4 +29,5 @@ end
 group :test do
   gem "capybara"
   gem "selenium-webdriver"
+  gem "vcr"
 end
