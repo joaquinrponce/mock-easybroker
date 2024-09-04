@@ -1,12 +1,10 @@
 describe Api::PropertiesController, type: :controller do
-
   def parsed_body
     JSON.parse(response.body)
   end
 
   describe "index" do
-
-    let(:properties) { [build(:easy_broker_property), build(:easy_broker_property)]}
+    let(:properties) { [ build(:easy_broker_property), build(:easy_broker_property) ] }
 
     before do
       allow(EasyBroker::Client).to receive(:new).and_return(double(properties: properties))

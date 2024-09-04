@@ -12,6 +12,6 @@ class Api::PropertiesController < ApplicationController
   end
 
   def client
-    @client ||= EasyBroker::Client.new(api_key: ENV["API_KEY"])
+    @client ||= EasyBroker::Client.new(api_key: ENV["EASYBROKER_API_KEY"])
   end
 end
