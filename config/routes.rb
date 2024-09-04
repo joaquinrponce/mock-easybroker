@@ -11,4 +11,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "vite#show"
+
+  namespace :api do
+    resources :properties
+  end
 end
