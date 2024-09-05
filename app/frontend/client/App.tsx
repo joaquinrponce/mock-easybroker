@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { getProperties } from './api/api'
 import { Property } from './components/Property';
 import { PropertyData } from './api/apiTypes';
+import { Header } from './components/Header';
+import "./styles/Properties.css"
+import "./styles/reset.css"
 
 function App() {
   const [properties, setProperties] = useState<PropertyData[]>([]);
@@ -16,12 +19,12 @@ function App() {
   }, [])
 
   return (
-    <>
-      <div>
+    <div>
+      <Header/>
+      <div className="properties">
+        {properties.map(property => <Property key={property.id} {...property.attributes}/>)}
       </div>
-      <h1>Easybroker</h1>
-      {properties.map(property => <Property key={property.id} {...property.attributes}/>)}
-    </>
+    </div>
   )
 }
 

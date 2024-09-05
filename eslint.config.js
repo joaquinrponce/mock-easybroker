@@ -11,6 +11,8 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {rules: {
-    "indent": ["error", 2]
+    "indent": ["error", 2],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   }}
 ];

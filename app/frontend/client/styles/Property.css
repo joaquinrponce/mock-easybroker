@@ -1,0 +1,70 @@
+.property {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 550px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.18);
+  color: #A1A1A1;
+}
+
+.top {
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.bottom {
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  color: #5D6BE5;
+  font-weight: bold;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: row;
+}
+
+.price {
+  color: #111111;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 13px;
+}
+
+.amenities {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.amenities div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  filter: invert(78%) sepia(8%) saturate(14%) hue-rotate(345deg) brightness(83%) contrast(82%);
+}
+
+.agent {
+  display: flex;
+}
