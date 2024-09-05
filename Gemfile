@@ -11,6 +11,7 @@ gem "bootsnap", require: false
 gem "vite_rails"
 gem "faraday"
 gem "jsonapi-serializer"
+gem "jsonapi.rb"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
