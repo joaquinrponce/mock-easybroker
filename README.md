@@ -5,6 +5,7 @@ To run locally:
 - Clone the repo
 - Run `bundle`
 - Run `npm ci`
+- Add `EASYBROKER_API_KEY` and `EASYBROKER_API_URL` to the `.env` file
 - Start the rails server with `rails s`
 - Start the vite server with `vite dev`
 
